@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeViewController.h
 //  MindSpace
 //
 //  Created by lanou3g on 16/3/1.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RESideMenu.h"
-@interface AppDelegate : UIResponder <UIApplicationDelegate,RESideMenuDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface HomeViewController : UIViewController
 
 @end
-

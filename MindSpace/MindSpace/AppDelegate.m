@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeViewController.h"
+#import "LeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    HomeViewController *Home= [[HomeViewController alloc]init];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:Home];
+    LeftViewController *leftView = [[LeftViewController alloc]init];
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc]initWithContentViewController:nvc leftMenuViewController:leftView rightMenuViewController:nil];
+    sideMenuViewController.mainController = nvc;
+    sideMenuViewController.menuPreferredStatusBarStyle = 1;
+    sideMenuViewController.delegate = self;
+    sideMenuViewController.contentViewShadowColor = [UIColor blackColor];
+    sideMenuViewController.contentViewShadowOffset = CGSizeMake(0, 0);
+    sideMenuViewController.contentViewShadowOpacity = 0.6;
+    sideMenuViewController.contentViewShadowRadius = 12;
+    sideMenuViewController.contentViewShadowEnabled = YES;
+    //是否缩小
+    sideMenuViewController.scaleContentView = NO;
+    
+    self.window.rootViewController = sideMenuViewController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

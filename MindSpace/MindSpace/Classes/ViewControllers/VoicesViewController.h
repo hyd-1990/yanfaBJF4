@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VoicesViewController.h
 //  MindSpace
 //
 //  Created by lanou3g on 16/3/1.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "RESideMenu.h"
-@interface AppDelegate : UIResponder <UIApplicationDelegate,RESideMenuDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface VoicesViewController : UIViewController
 
 @end
-

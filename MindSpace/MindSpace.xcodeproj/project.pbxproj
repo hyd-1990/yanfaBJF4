@@ -13,6 +13,21 @@
 		C23776E61C8524A200FF04A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23776E41C8524A200FF04A5 /* Main.storyboard */; };
 		C23776E81C8524A200FF04A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23776E71C8524A200FF04A5 /* Assets.xcassets */; };
 		C23776EB1C8524A200FF04A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23776E91C8524A200FF04A5 /* LaunchScreen.storyboard */; };
+		C2603AB01C85280300D7C240 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AAB1C85280300D7C240 /* RECommonFunctions.m */; };
+		C2603AB11C85280300D7C240 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AAD1C85280300D7C240 /* RESideMenu.m */; };
+		C2603AB21C85280300D7C240 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AAF1C85280300D7C240 /* UIViewController+RESideMenu.m */; };
+		C2603AB61C85284800D7C240 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AB41C85284800D7C240 /* HomeViewController.m */; };
+		C2603AB71C85284800D7C240 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603AB51C85284800D7C240 /* HomeViewController.xib */; };
+		C2603ABA1C85286300D7C240 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AB91C85286300D7C240 /* LeftViewController.m */; };
+		C2603ABC1C852A5D00D7C240 /* fenlei.png in Resources */ = {isa = PBXBuildFile; fileRef = C2603ABB1C852A5D00D7C240 /* fenlei.png */; };
+		C2603AC11C852BAB00D7C240 /* WordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603ABF1C852BAB00D7C240 /* WordsViewController.m */; };
+		C2603AC21C852BAB00D7C240 /* WordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603AC01C852BAB00D7C240 /* WordsViewController.xib */; };
+		C2603AC61C852BCD00D7C240 /* VoicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AC41C852BCD00D7C240 /* VoicesViewController.m */; };
+		C2603AC71C852BCD00D7C240 /* VoicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */; };
+		C2603ACB1C852BE300D7C240 /* VoideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AC91C852BE300D7C240 /* VoideViewController.m */; };
+		C2603ACC1C852BE300D7C240 /* VoideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603ACA1C852BE300D7C240 /* VoideViewController.xib */; };
+		C2603AD01C852BF100D7C240 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603ACE1C852BF100D7C240 /* SearchViewController.m */; };
+		C2603AD11C852BF100D7C240 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603ACF1C852BF100D7C240 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,30 @@
 		C23776E71C8524A200FF04A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23776EA1C8524A200FF04A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23776EC1C8524A300FF04A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2603AAA1C85280300D7C240 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		C2603AAB1C85280300D7C240 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		C2603AAC1C85280300D7C240 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		C2603AAD1C85280300D7C240 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		C2603AAE1C85280300D7C240 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		C2603AAF1C85280300D7C240 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		C2603AB31C85284800D7C240 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C2603AB41C85284800D7C240 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C2603AB51C85284800D7C240 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C2603AB81C85286300D7C240 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		C2603AB91C85286300D7C240 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		C2603ABB1C852A5D00D7C240 /* fenlei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fenlei.png; sourceTree = "<group>"; };
+		C2603ABE1C852BAB00D7C240 /* WordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsViewController.h; sourceTree = "<group>"; };
+		C2603ABF1C852BAB00D7C240 /* WordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsViewController.m; sourceTree = "<group>"; };
+		C2603AC01C852BAB00D7C240 /* WordsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordsViewController.xib; sourceTree = "<group>"; };
+		C2603AC31C852BCD00D7C240 /* VoicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicesViewController.h; sourceTree = "<group>"; };
+		C2603AC41C852BCD00D7C240 /* VoicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicesViewController.m; sourceTree = "<group>"; };
+		C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoicesViewController.xib; sourceTree = "<group>"; };
+		C2603AC81C852BE300D7C240 /* VoideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoideViewController.h; sourceTree = "<group>"; };
+		C2603AC91C852BE300D7C240 /* VoideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoideViewController.m; sourceTree = "<group>"; };
+		C2603ACA1C852BE300D7C240 /* VoideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoideViewController.xib; sourceTree = "<group>"; };
+		C2603ACD1C852BF100D7C240 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C2603ACE1C852BF100D7C240 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C2603ACF1C852BF100D7C240 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +99,11 @@
 			children = (
 				C23776DE1C8524A200FF04A5 /* AppDelegate.h */,
 				C23776DF1C8524A200FF04A5 /* AppDelegate.m */,
+				C2603AA21C8527CC00D7C240 /* Classes */,
 				C23776E11C8524A200FF04A5 /* ViewController.h */,
 				C23776E21C8524A200FF04A5 /* ViewController.m */,
 				C23776E41C8524A200FF04A5 /* Main.storyboard */,
+				C2603ABB1C852A5D00D7C240 /* fenlei.png */,
 				C23776E71C8524A200FF04A5 /* Assets.xcassets */,
 				C23776E91C8524A200FF04A5 /* LaunchScreen.storyboard */,
 				C23776EC1C8524A300FF04A5 /* Info.plist */,
@@ -77,6 +118,100 @@
 				C23776DC1C8524A200FF04A5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2603AA21C8527CC00D7C240 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2603AA31C8527CC00D7C240 /* Headers */,
+				C2603AA41C8527CC00D7C240 /* Helps */,
+				C2603AA51C8527CC00D7C240 /* Model */,
+				C2603AA61C8527CC00D7C240 /* ThirdParties */,
+				C2603AA71C8527CC00D7C240 /* ViewControllers */,
+				C2603AA81C8527CC00D7C240 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C2603AA31C8527CC00D7C240 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C2603AA41C8527CC00D7C240 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		C2603AA51C8527CC00D7C240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2603AA61C8527CC00D7C240 /* ThirdParties */ = {
+			isa = PBXGroup;
+			children = (
+				C2603AA91C85280300D7C240 /* RESideMenu */,
+			);
+			path = ThirdParties;
+			sourceTree = "<group>";
+		};
+		C2603AA71C8527CC00D7C240 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2603AB31C85284800D7C240 /* HomeViewController.h */,
+				C2603AB41C85284800D7C240 /* HomeViewController.m */,
+				C2603AB51C85284800D7C240 /* HomeViewController.xib */,
+				C2603AB81C85286300D7C240 /* LeftViewController.h */,
+				C2603AB91C85286300D7C240 /* LeftViewController.m */,
+				C2603ABD1C852B7300D7C240 /* leftcontrolller */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2603AA81C8527CC00D7C240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2603AA91C85280300D7C240 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C2603AAA1C85280300D7C240 /* RECommonFunctions.h */,
+				C2603AAB1C85280300D7C240 /* RECommonFunctions.m */,
+				C2603AAC1C85280300D7C240 /* RESideMenu.h */,
+				C2603AAD1C85280300D7C240 /* RESideMenu.m */,
+				C2603AAE1C85280300D7C240 /* UIViewController+RESideMenu.h */,
+				C2603AAF1C85280300D7C240 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		C2603ABD1C852B7300D7C240 /* leftcontrolller */ = {
+			isa = PBXGroup;
+			children = (
+				C2603ABE1C852BAB00D7C240 /* WordsViewController.h */,
+				C2603ABF1C852BAB00D7C240 /* WordsViewController.m */,
+				C2603AC01C852BAB00D7C240 /* WordsViewController.xib */,
+				C2603AC31C852BCD00D7C240 /* VoicesViewController.h */,
+				C2603AC41C852BCD00D7C240 /* VoicesViewController.m */,
+				C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */,
+				C2603AC81C852BE300D7C240 /* VoideViewController.h */,
+				C2603AC91C852BE300D7C240 /* VoideViewController.m */,
+				C2603ACA1C852BE300D7C240 /* VoideViewController.xib */,
+				C2603ACD1C852BF100D7C240 /* SearchViewController.h */,
+				C2603ACE1C852BF100D7C240 /* SearchViewController.m */,
+				C2603ACF1C852BF100D7C240 /* SearchViewController.xib */,
+			);
+			name = leftcontrolller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +273,13 @@
 			files = (
 				C23776EB1C8524A200FF04A5 /* LaunchScreen.storyboard in Resources */,
 				C23776E81C8524A200FF04A5 /* Assets.xcassets in Resources */,
+				C2603ABC1C852A5D00D7C240 /* fenlei.png in Resources */,
 				C23776E61C8524A200FF04A5 /* Main.storyboard in Resources */,
+				C2603AC71C852BCD00D7C240 /* VoicesViewController.xib in Resources */,
+				C2603AD11C852BF100D7C240 /* SearchViewController.xib in Resources */,
+				C2603AC21C852BAB00D7C240 /* WordsViewController.xib in Resources */,
+				C2603ACC1C852BE300D7C240 /* VoideViewController.xib in Resources */,
+				C2603AB71C85284800D7C240 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +291,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23776E31C8524A200FF04A5 /* ViewController.m in Sources */,
+				C2603ABA1C85286300D7C240 /* LeftViewController.m in Sources */,
+				C2603AC11C852BAB00D7C240 /* WordsViewController.m in Sources */,
+				C2603ACB1C852BE300D7C240 /* VoideViewController.m in Sources */,
 				C23776E01C8524A200FF04A5 /* AppDelegate.m in Sources */,
 				C23776DD1C8524A200FF04A5 /* main.m in Sources */,
+				C2603AC61C852BCD00D7C240 /* VoicesViewController.m in Sources */,
+				C2603AB11C85280300D7C240 /* RESideMenu.m in Sources */,
+				C2603AB01C85280300D7C240 /* RECommonFunctions.m in Sources */,
+				C2603AB61C85284800D7C240 /* HomeViewController.m in Sources */,
+				C2603AD01C852BF100D7C240 /* SearchViewController.m in Sources */,
+				C2603AB21C85280300D7C240 /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +448,7 @@
 				C23776F11C8524A300FF04A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
