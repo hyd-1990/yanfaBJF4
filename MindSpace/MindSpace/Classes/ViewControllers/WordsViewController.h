@@ -10,5 +10,5 @@
 #import "RESideMenu.h"
 
 @interface WordsViewController : UIViewController
-
+@property (nonatomic, assign)NSInteger path;
 @end

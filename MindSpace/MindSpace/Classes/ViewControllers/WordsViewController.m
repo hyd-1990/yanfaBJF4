@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if (self.path == 1) {
+        self.navigationItem.title = @"文字";
+    }else if (self.path == 2){
+        self.navigationItem.title = @"声音";
+    }else{
+        self.navigationItem.title = @"影像";
+    }
+    
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"fenlei.png"] style:UIBarButtonItemStyleDone target:self action:@selector(presentLeftMenuViewController:)];
     
     // Do any additional setup after loading the view from its nib.

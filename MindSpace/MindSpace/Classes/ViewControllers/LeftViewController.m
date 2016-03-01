@@ -9,7 +9,6 @@
 #import "LeftViewController.h"
 #import "WordsViewController.h"
 #import "VoicesViewController.h"
-#import "VoideViewController.h"
 #import "SearchViewController.h"
 #import "RESideMenu.h"
 
@@ -25,7 +24,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
     
-    _lefs = @[@"首页",@"文字",@"声音",@"影像",@"搜索"];
+    _lefs = @[@"首页",@"文字",@"声音",@"影像",@"日历",@"搜索"];
     _tableView = [[UITableView alloc] init];
     _tableView.frame = CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.width - 64);
     _tableView.dataSource = self;
@@ -76,20 +75,22 @@
     UIViewController *center;
     if (indexPath.row == 0) {
         center = self.sideMenuViewController.mainController;
-    }else if(indexPath.row == 1){
+    }else if(0< indexPath.row && indexPath.row <=3){
         WordsViewController *words = [[WordsViewController alloc ] init];
+        words.path = indexPath.row;
         center = [[UINavigationController alloc] initWithRootViewController:words];
-    }else if(indexPath.row == 2){
-        VoicesViewController *voices = [[VoicesViewController alloc ] init];
-        center = [[UINavigationController alloc] initWithRootViewController:voices];
+    }else if(indexPath.row == 4){
+        VoicesViewController *rili = [[VoicesViewController alloc ] init];
+        center = [[UINavigationController alloc] initWithRootViewController:rili];
         
-    }else if(indexPath.row == 3){
-        VoideViewController *voide = [[VoideViewController alloc ] init];
-        center = [[UINavigationController alloc] initWithRootViewController:voide];
-    }else{
+    }else if(indexPath.row == 5){
         SearchViewController *search = [[SearchViewController alloc ] init];
-        center = [[UINavigationController alloc] initWithRootViewController:search];
+                center = [[UINavigationController alloc] initWithRootViewController:search];
     }
+//    else{
+//        SearchViewController *search = [[SearchViewController alloc ] init];
+//        center = [[UINavigationController alloc] initWithRootViewController:search];
+//    }
     [self.sideMenuViewController setContentViewController:center
                                                  animated:YES];
     [self.sideMenuViewController hideMenuViewController];

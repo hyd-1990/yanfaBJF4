@@ -24,8 +24,6 @@
 		C2603AC21C852BAB00D7C240 /* WordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603AC01C852BAB00D7C240 /* WordsViewController.xib */; };
 		C2603AC61C852BCD00D7C240 /* VoicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AC41C852BCD00D7C240 /* VoicesViewController.m */; };
 		C2603AC71C852BCD00D7C240 /* VoicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */; };
-		C2603ACB1C852BE300D7C240 /* VoideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603AC91C852BE300D7C240 /* VoideViewController.m */; };
-		C2603ACC1C852BE300D7C240 /* VoideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603ACA1C852BE300D7C240 /* VoideViewController.xib */; };
 		C2603AD01C852BF100D7C240 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2603ACE1C852BF100D7C240 /* SearchViewController.m */; };
 		C2603AD11C852BF100D7C240 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2603ACF1C852BF100D7C240 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
@@ -59,9 +57,6 @@
 		C2603AC31C852BCD00D7C240 /* VoicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicesViewController.h; sourceTree = "<group>"; };
 		C2603AC41C852BCD00D7C240 /* VoicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicesViewController.m; sourceTree = "<group>"; };
 		C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoicesViewController.xib; sourceTree = "<group>"; };
-		C2603AC81C852BE300D7C240 /* VoideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoideViewController.h; sourceTree = "<group>"; };
-		C2603AC91C852BE300D7C240 /* VoideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoideViewController.m; sourceTree = "<group>"; };
-		C2603ACA1C852BE300D7C240 /* VoideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoideViewController.xib; sourceTree = "<group>"; };
 		C2603ACD1C852BF100D7C240 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		C2603ACE1C852BF100D7C240 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		C2603ACF1C852BF100D7C240 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
@@ -204,9 +199,6 @@
 				C2603AC31C852BCD00D7C240 /* VoicesViewController.h */,
 				C2603AC41C852BCD00D7C240 /* VoicesViewController.m */,
 				C2603AC51C852BCD00D7C240 /* VoicesViewController.xib */,
-				C2603AC81C852BE300D7C240 /* VoideViewController.h */,
-				C2603AC91C852BE300D7C240 /* VoideViewController.m */,
-				C2603ACA1C852BE300D7C240 /* VoideViewController.xib */,
 				C2603ACD1C852BF100D7C240 /* SearchViewController.h */,
 				C2603ACE1C852BF100D7C240 /* SearchViewController.m */,
 				C2603ACF1C852BF100D7C240 /* SearchViewController.xib */,
@@ -278,7 +270,6 @@
 				C2603AC71C852BCD00D7C240 /* VoicesViewController.xib in Resources */,
 				C2603AD11C852BF100D7C240 /* SearchViewController.xib in Resources */,
 				C2603AC21C852BAB00D7C240 /* WordsViewController.xib in Resources */,
-				C2603ACC1C852BE300D7C240 /* VoideViewController.xib in Resources */,
 				C2603AB71C85284800D7C240 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +284,6 @@
 				C23776E31C8524A200FF04A5 /* ViewController.m in Sources */,
 				C2603ABA1C85286300D7C240 /* LeftViewController.m in Sources */,
 				C2603AC11C852BAB00D7C240 /* WordsViewController.m in Sources */,
-				C2603ACB1C852BE300D7C240 /* VoideViewController.m in Sources */,
 				C23776E01C8524A200FF04A5 /* AppDelegate.m in Sources */,
 				C23776DD1C8524A200FF04A5 /* main.m in Sources */,
 				C2603AC61C852BCD00D7C240 /* VoicesViewController.m in Sources */,
